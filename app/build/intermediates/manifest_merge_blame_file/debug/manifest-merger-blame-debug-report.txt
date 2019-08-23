@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.application.mvvm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:5:5-20:19
+12        android:name="com.application.mvvm.AppApplication"
+12-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:6:9-59
+13        android:allowBackup="true"
+13-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.1.0-rc01] C:\Users\garggsat\.gradle\caches\transforms-2\files-2.1\adb0bbb93aa7d1487aaf6e3618b24732\core-1.1.0-rc01\AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:8:9-43
+17        android:label="@string/app_name"
+17-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:9:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:10:9-54
+19        android:supportsRtl="true"
+19-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:11:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:12:9-40
+22        <activity android:name="com.application.mvvm.books.BooksActivity" >
+22-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:13:9-19:20
+22-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:13:19-54
+23            <intent-filter>
+23-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:14:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:15:17-69
+24-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:15:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:17:17-77
+26-->C:\TietoCode\Android\POC\MVVMReposDemo\android-mvvm-livedata-room-data-binding\app\src\main\AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28        </activity>
+29
+30        <service
+30-->[androidx.room:room-runtime:2.2.0-alpha02] C:\Users\garggsat\.gradle\caches\transforms-2\files-2.1\43274fdb5eec84e2bf4482920352d8a0\room-runtime-2.2.0-alpha02\AndroidManifest.xml:25:9-27:40
+31            android:name="androidx.room.MultiInstanceInvalidationService"
+31-->[androidx.room:room-runtime:2.2.0-alpha02] C:\Users\garggsat\.gradle\caches\transforms-2\files-2.1\43274fdb5eec84e2bf4482920352d8a0\room-runtime-2.2.0-alpha02\AndroidManifest.xml:26:13-74
+32            android:exported="false" />
+32-->[androidx.room:room-runtime:2.2.0-alpha02] C:\Users\garggsat\.gradle\caches\transforms-2\files-2.1\43274fdb5eec84e2bf4482920352d8a0\room-runtime-2.2.0-alpha02\AndroidManifest.xml:27:13-37
+33
+34        <provider
+34-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] C:\Users\garggsat\.gradle\caches\transforms-2\files-2.1\a6ec3687218a68eec421523a38cade77\lifecycle-process-2.2.0-alpha03\AndroidManifest.xml:25:9-29:43
+35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+35-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] C:\Users\garggsat\.gradle\caches\transforms-2\files-2.1\a6ec3687218a68eec421523a38cade77\lifecycle-process-2.2.0-alpha03\AndroidManifest.xml:26:13-79
+36            android:authorities="com.application.mvvm.lifecycle-process"
+36-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] C:\Users\garggsat\.gradle\caches\transforms-2\files-2.1\a6ec3687218a68eec421523a38cade77\lifecycle-process-2.2.0-alpha03\AndroidManifest.xml:27:13-69
+37            android:exported="false"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] C:\Users\garggsat\.gradle\caches\transforms-2\files-2.1\a6ec3687218a68eec421523a38cade77\lifecycle-process-2.2.0-alpha03\AndroidManifest.xml:28:13-37
+38            android:multiprocess="true" />
+38-->[androidx.lifecycle:lifecycle-process:2.2.0-alpha03] C:\Users\garggsat\.gradle\caches\transforms-2\files-2.1\a6ec3687218a68eec421523a38cade77\lifecycle-process-2.2.0-alpha03\AndroidManifest.xml:29:13-40
+39    </application>
+40
+41</manifest>
